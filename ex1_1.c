@@ -1,13 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    
-    double a,b;
-    scanf("%lf %lf",&a,&b);
-    printf("%.2f",a+b);
-    printf("%.2f",a-b);
-    printf("%.2f",a*b);
-    printf("%.2f",a/b);
-
-    return 0;
-}
+int main()
+{
+  int n[2];
+  scanf("%d %d", &n[0], &n[1]);
+  printf("%d\n%d\n%d\n%d", n[0] + n[1], n[0] - n[1], n[0] * n[1], n[0] / n[1]);
+  return 0;
