@@ -1,4 +1,4 @@
-# KMITL-ComputerEngineering-Programming-Fundament-Problems 
+# KMITL-ComputerEngineering-Programming-Fundament-Weekly-Programs
 โจทย์เขียนโปรเเกรมรายสัปดาห์
 รายวิชา Programming Fundamental สาขาวิศวกรรมคอมพิวเตอร์ ชั้นปีที่ 1
 65010195 นายชลศักดิ์ อนุวารีพงษ์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 
