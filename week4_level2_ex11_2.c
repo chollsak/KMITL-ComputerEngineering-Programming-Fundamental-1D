@@ -1,36 +1,44 @@
 #include <stdio.h>
 //จงเขียนโปรแกรมเพื่อรับค่าตัวเลข 2 จำนวน แล้วคำนวณหาผลบวกของจำนวนที่น้อยที่สุด 
 //กับจำนวนที่น้อยที่สุดเป็นลำดับสอง 
-int main(){
-   
-        int i,j,k,myNumber[2];
-        scanf("%d %d %d",&i,&j,&k);
-        if(i<j && i<k){
-                myNumber[0] = i;
-                
-        }else if(j<i && j<k){
-                
-                myNumber[0] = j;
-        }else{
-                
-                myNumber[0] = k;
-        }
 
-        if(i>j && i<k || i>k && i<j){
-                
-                myNumber[1] = i;
-        }else if(j>i && j<k || j>k && j<i){
-                
-                myNumber[1] = j;
-        }else if(k>i && k<j || k>j && k<i){
-                
-                myNumber[1] = k;
-        }
+int main()
 
-        printf("min: %d\n",myNumber[0]);
-        printf("mid: %d",myNumber[1]);
-        printf("\nresult: %d",myNumber[0] + myNumber[1]);
+{
 
+    int a,b,c;
 
-        return 0;
+    int min,mid,max,i=1;
+
+    printf("Enter number: ");
+    scanf("%d",&a);
+    printf("\nEnter number: ");
+    scanf("%d",&b);
+    printf("\nEnter number: ");
+    scanf("%d",&c);
+
+    if(((a<b)&&(b<c)) || ((a>b)&&(a<c)))
+    {
+        min=a;
+        mid=b;
+        max=c;
+    }
+    if(((b<a)&&(a>c)) || ((a>b)&&(a<c)))
+    {
+        min=c;
+        mid=a;
+        max=b;
+    }
+    if(((c<a)&&(c>b)) || ((c>a)&&(c<b)))
+    {
+        min=b;
+        mid=c;
+        max=a;
+    }
+    printf("\nMid is %d",mid);
+    printf("\nMin is %d",min);
+
+    printf("\nMid + Min = %d", min + mid);
+    return 0;
 }
+
