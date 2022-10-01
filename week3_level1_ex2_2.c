@@ -1,8 +1,23 @@
 #include <stdio.h>
-//จงเขียนโปรแกรมเพื่อหาค่า Body Mass Index จากค่าความสูงและน้ำหนัก ซึ่งมีสูตรการคำนวณดังนี้
-//BMI = Weight / Height2
-//เมื่อ Weight มีหน่วยเป็นกิโลกรัม และ Height มีหน่วยเป็นเมตร (เกณฑ์การแบ่งน้ำหนักโดยใช้ BMI , ต่ำกว่า 18.5 น้ำหนักต่ำกว่าเกณฑ์ , 18.5 - 24.9 ปกติ , 25.0 - 29.9 สูงกว่ามาตรฐาน , ตั้งแต่ 30.0 ขึ้นไป อ้วนเกินไป ) 
 
+void myFunction(double w, double h){
+    double BMI = (w/(h*h));
+    char* sentencesarr[] = {"You are underweight.", "You are healthy.", "You are overweight.", "You are obese"};
+
+    printf ("Your BMI is %.1f ",BMI);
+    
+    if(BMI<18.5){
+        printf("%s", sentencesarr[0]);
+    }else if(BMI >= 18.5 && BMI <=24.9){
+        printf("%s", sentencesarr[1]);
+    }else if(BMI >= 25 && BMI <= 29.9){
+        printf("%s", sentencesarr[2]);
+    }else{
+        printf("%s", sentencesarr[3]);
+    }
+
+
+}
 
 int main(){
     double w,h;
@@ -10,18 +25,7 @@ int main(){
     scanf("%lf",&w);
     printf("Height(m): ");
     scanf("%lf",&h);
-    double BMI = (w/(h*h));
-    printf ("Your BMI is %.1f ",BMI);
-    if(BMI<18.5){
-        printf("You are underweight.");
-    }else if(BMI >= 18.5 && BMI <=24.9){
-        printf("You are healthy.");
-    }else if(BMI >= 25 && BMI <= 29.9){
-        printf("You are overweight.");
-    }else{
-        printf("You are obese");
-    }
-
+    myFunction(w,h);
     
     return 0;
 }
