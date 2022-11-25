@@ -1,13 +1,4 @@
 # KMITL-ComputerEngineering-Programming-Fundament-Weekly-Programs
-โจทย์เขียนโปรเเกรมใน
-รายวิชา Programming Fundamental สาขาวิศวกรรมคอมพิวเตอร์ ชั้นปีที่ 1
-65010195 นายชลศักดิ์ อนุวารีพงษ์ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง 
+01076103 Programming Fundamental Weekly Programming | Computer Engineering 1D 65010195 Chollasak Anuwareepong | King Mongkut's Institute of Technology Ladkrabang.<br/>
 
-For English: 
-Works of
-Programming Fundamental subject, Computer Engineering 1st 
-65010195 Chollasak Anuwareepong ,KMITL
-
-I will be back for arranging later!
-
-https://docs.google.com/document/d/1ZvJCqXif7hGMGWO1VD9V2Lkamiu-ZDyI9epi1ooGwUE/edit?usp=sharing
+Doc: https://docs.google.com/document/d/1ZvJCqXif7hGMGWO1VD9V2Lkamiu-ZDyI9epi1ooGwUE/edit?usp=sharing<br/>
